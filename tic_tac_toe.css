@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.game td
+{
+    width:100px;
+    height:100px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: rgb(161, 245, 227);
+    cursor:pointer;
+}
+
+.game
+{
+    background:#efefef;
+    border:solid 10px #333;
+}
+
+.game .game-title
+{
+    background:rgb(231, 191, 11);
+    color:#fff;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 4px #00fa4b;
+}
+
+.tictactoe-board
+{
+    
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    padding-top:20px;
+}
+
+.tictactoe-board table
+{
+    float:left;
+    width: 50%;
+}
+
+.tictactoe-board-score1
+{
+    float:left;
+    width:20%;
+}
+
+.tictactoe-board-score2
+{
+    float:left;
+    width:20%;
+}
+
+.clear
+{
+    clear:both;
+}
+.res_button
+{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+td{
+    background-color: rgba(85, 228, 209, 0.815);
+}
+button{
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 60px;
+}
+button:active{
+    font-size: 18px;
+}
+#clearscr{
+    background-color: rgb(245, 107, 14);
+}
+#reset_game{
+    background-color: red;
+}
